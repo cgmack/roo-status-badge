@@ -1,0 +1,15 @@
+{
+  "name": "roo-status-badge-tests",
+  "version": "1.0.0",
+  "description": "Tests for Roo Status Badge Chrome Extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
