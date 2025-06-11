@@ -15,7 +15,7 @@ This Chrome Extension provides a visual status badge for Roo, indicating its cur
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/roo-status-badge.git
+    git clone https://github.com/cgmack/roo-status-badge.git
     ```
 2.  **Load the extension in Chrome**:
     *   Open Chrome and navigate to `chrome://extensions`.
@@ -27,10 +27,6 @@ This Chrome Extension provides a visual status badge for Roo, indicating its cur
         ```javascript
         chrome.runtime.sendMessage({ type: 'ROO_STATUS_UPDATE', status: 'waiting' });
         ```
-
-## Documentation
-
-For full documentation, see [docs/](docs/).
 
 ## License
 
